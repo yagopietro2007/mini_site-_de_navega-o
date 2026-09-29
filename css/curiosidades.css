@@ -1,0 +1,144 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #352044;
+    background-color: #FFF8FC;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #352044;
+    color: #FFF8FC;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #FFF8FC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E08AB5;
+}
+
+.subtitulo {
+    color: #7B4FA3;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* TOPO */
+
+#topo {
+    padding: 40px;
+    align-items: center;
+    background-color: #F8DDED;
+}
+
+#topo h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #593675;
+    margin-top: 10px;
+}
+
+#topo p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* CURIOSIDADES */
+
+.curiosidades {
+    padding: 40px;
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    background-color: #FFF8FC;
+    justify-content: center;
+}
+
+#foto-curiosidades {
+    width: 40%
+}
+
+#foto-curiosidades img {
+    width: 100%;
+    border: 3px solid #D9B44A;
+    border-radius: 20px;
+}
+
+#fatos {
+    width: 40%;
+}
+
+.fato {
+    display: flex;
+    gap: 20px;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-left: 5px solid #E8A7C8;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.fato .numero {
+    color: #7B4FA3;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.fato h2 {
+    font-family: Georgia, serif;
+    color: #593675;
+    margin-bottom: 10px;
+}
+
+.fato p {
+    line-height: 1.6;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #352044;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-rodape {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-rodape a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.link-rodape a:hover {
+    text-decoration: none;
+    color: #E08AB5;
+}

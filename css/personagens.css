@@ -1,0 +1,169 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #352044;
+    background-color: #FFF8FC;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #352044;
+    color: #FFF8FC;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #FFF8FC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E08AB5;
+}
+
+.subtitulo {
+    color: #7B4FA3;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+/* TOPO */
+
+#topo {
+    padding: 40px;
+    align-items: center;
+    background-color: #F8DDED;
+}
+
+#topo h1 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #593675;
+    margin-top: 10px;
+}
+
+#topo p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+/* PERSONAGENS */
+
+.personagens {
+    padding: 40px;
+    background-color: #FFF8FC;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.personagem {
+    background-color: #ffffff;
+    border-radius: 15px;
+    width: 30%;
+}
+
+.foto-personagem {
+    width: 100%;
+    height: 330px;
+    background-color: #E8A7C8;
+}
+
+.foto-personagem img {
+  width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.info-personagem {
+    padding: 25px;
+}
+
+.info-personagem .numero {
+    color: #7B4FA3;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.info-personagem h2 {
+    font-family: Georgia, serif;
+    font-size: 28px;
+    color: #593675;
+}
+
+.info-personagem p:last-child {
+    line-height: 1.6;
+}
+
+/* IR PARA CURIOSIDADES */
+
+#ir-para-curiosidades {
+    padding: 40px;
+    background-color: #F1DCEB;
+    text-align: center;
+}
+
+#ir-para-curiosidades h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #593675;
+}
+
+#ir-para-curiosidades a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #7B4FA3;
+    padding: 14px 22px;
+    border-radius: 5px;
+}
+
+#ir-para-curiosidades a:hover {
+    background-color: #E8A7C8;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #352044;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-rodape {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-rodape a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.link-rodape a:hover {
+    text-decoration: none;
+    color: #E08AB5;
+}

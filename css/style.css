@@ -1,0 +1,185 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #352044;
+    background-color: #FFF8FC;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #352044;
+    color: #FFF8FC;
+}
+
+.logo {
+    font-family: Georgia, serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 25px;
+}
+
+nav a {
+    color: #FFF8FC;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #E08AB5;
+}
+
+/* HERO */
+
+#hero {
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    background-color: #F8DDED;
+}
+
+.subtitulo {
+    color: #7B4FA3;
+    font-weight: bold;
+    font-size: 15px;
+    letter-spacing: 2px;
+}
+
+#hero h1 {
+    font-family: Georgia, serif;
+    font-size: 80px;
+    color: #593675;
+    margin: 10px 0;
+}
+
+#hero p {
+    font-size: 18px;
+    line-height: 1.7;
+}
+
+#hero a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #7B4FA3;
+    padding: 14px 22px;
+    border-radius: 5px;
+}
+
+#hero a:hover {
+    background-color: #E8A7C8;
+}
+
+#img-hero {
+    width: 40%;
+}
+
+#hero img {
+    width: 100%;
+    border: 3px solid #D9B44A;
+    border-radius: 20px;
+}
+
+/* DESTAQUES */
+
+#destaques {
+    padding: 40px;
+}
+
+#texto-galeria h2 {
+    font-family: Georgia, serif;
+    font-size: 40px;
+    color: #593675;
+    margin-top: 10px;
+}
+
+#fotos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.foto {
+    width: 25%;
+    padding: 35px;
+    background-color: #ffffff;
+    border-top: 5px solid #E8A7C8;
+    border-radius: 10px;
+}
+
+.foto h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #593675;
+}
+
+.foto p {
+    line-height: 1.6;
+}
+
+/* IR PARA PERSONAGENS */
+
+#ir-para-personagens {
+    padding: 40px;
+    background-color: #F1DCEB;
+    text-align: center;
+}
+
+#ir-para-personagens h3 {
+    font-family: Georgia, serif;
+    font-size: 20px;
+    color: #593675;
+}
+
+#ir-para-personagens a {
+    display: inline-block;
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #7B4FA3;
+    padding: 14px 22px;
+    border-radius: 5px;
+}
+
+#ir-para-personagens a:hover {
+    background-color: #E8A7C8;
+}
+
+/* FOOTER */
+
+footer {
+    background-color: #352044;
+    color: #ffffff;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#links-rodape {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.link-rodape a {
+    text-decoration: none;
+    color:#ffffff;
+    font-weight: bold;
+}
+
+.link-rodape a:hover {
+    text-decoration: none;
+    color: #E08AB5;
+}
