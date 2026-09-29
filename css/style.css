@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -79,17 +83,23 @@ nav a:hover {
 #hero a:hover {
     background-color: #E8A7C8;
 }
-
 #img-hero {
-    width: 40%;
+    width: fit-content;   
+    max-width: 50%;        
+    border: 3px solid #D9B44A;
+    border-radius: 20px;
+    overflow: hidden;     
+    display: flex;
 }
 
 #hero img {
     width: 100%;
-    border: 3px solid #D9B44A;
-    border-radius: 20px;
+    height: auto;
+    max-height: 550px;    
+    object-fit: contain;    
+    display: block;
+    border: none;
 }
-
 /* DESTAQUES */
 
 #destaques {
@@ -111,11 +121,17 @@ nav a:hover {
 }
 
 .foto {
-    width: 25%;
-    padding: 35px;
+    width: calc(33.333% - 20px); 
     background-color: #ffffff;
     border-top: 5px solid #E8A7C8;
     border-radius: 10px;
+}
+
+.foto img {
+    width: 70%;
+    height: auto;
+    display: block;
+    border-radius: 5px;
 }
 
 .foto h3 {
@@ -175,7 +191,7 @@ footer {
 
 .link-rodape a {
     text-decoration: none;
-    color:#ffffff;
+    color: #ffffff;
     font-weight: bold;
 }
 

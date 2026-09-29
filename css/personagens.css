@@ -87,10 +87,14 @@ nav a:hover {
 }
 
 .foto-personagem img {
-  width: 100%;
-    height: 100%;
-    object-fit: cover;
+  width: 110%;
+    height: 110%;
+    align-items: center;
+    object-position: center;
+    object-fit: contain;
 }
+
+
 
 .info-personagem {
     padding: 25px;
